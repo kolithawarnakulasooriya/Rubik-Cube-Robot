@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EmguCV</id>
+    <version>3.1.0.1</version>
+    <title>EmguCV</title>
+    <authors>emgu</authors>
+    <owners>emgu</owners>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html</licenseUrl>
+    <projectUrl>http://www.emgu.com/</projectUrl>
+    <iconUrl>http://a.fsdn.com/con/app/proj/emgucv/screenshots/162632.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Emgu CV is a cross platform .Net wrapper to the OpenCV image processing library. Allowing OpenCV functions to be called from .NET compatible languages such as C#, VB, VC++, IronPython etc. The wrapper can be compiled in Mono and run on Windows, Linux, Mac OS X, iPhone, iPad and Android devices.</description>
+    <summary>Emgu CV is a cross platform .Net wrapper to the OpenCV image processing library. Allowing OpenCV functions to be called from .NET compatible languages such as C#, VB, VC++, IronPython etc. The wrapper</summary>
+    <releaseNotes>Package changes:
+* 3.1.0.1 fixes an incorrect dependency on a newer version of ZedGraph
+
+Change Log
+* 3.1 release no longer support CUDA on x86, CUDA 7.0 release has dropped x86 support.
+
+Enhancements
+* Based on Open CV 3.1.0 release. For details, please see Open CV 3.1 release note
+* In this release, all projects except Emgu.CV.UI have been converted to shared projects. There is a new Emgu.CV.World project that references all the shared projects ( except Emgu.CV.UI ) and can be compiled to a single dll.
+* Unity 3D release have Windows 10 support. Windows Store and Windows Phone for Visual Studio will only support Windows 8.1 project type. We will bring Windows 10 UWP project type support for Visual Studio project in the next release.
+* Emgu CV for Xamarin Android release now supports x86_64 and arm64_v8a architectures.
+* Added Tesseract OCR support for Windows Phone 8.1 and Windows Store 8.1
+* Added XamarinForms demo for Android and IOS.
+* Added fish-eye calibration class.
+* Added ConnectedComponents in CvInvoke.
+* Added the optional mask parameter to CvInvoke.MatchTemplate function
+* Added functions to allow programmatically select the Open CL device (CvInvoke.OclSetDefaultDevice)
+* Added SimpleBlobDetectorParams such that we can change the default parameters for SimpleBlobDetector
+
+Bug Fixes
+* Fixed a bug in UMat.Split, added dot product for UMat
+* Fixed a bug in FloodFill where the bounding rectangle is not being returned.
+* Fixed Bug 133 &amp; Bug 166</releaseNotes>
+    <language>en-US</language>
+    <tags>emgu emgucv opencv</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework3.0">
+        <dependency id="OpenTK" version="1.1.2225" />
+        <dependency id="OpenTK.GLControl" version="1.1.2225" />
+        <dependency id="ZedGraph" version="5.1.5" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

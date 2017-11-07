@@ -1,0 +1,4 @@
+C:\Users\Koli\Desktop\RubiksCubeSolver-master\RubiksCubeSolver\KociembaTwoPhase\bin\Debug\KociembaTwoPhase.dll
+C:\Users\Koli\Desktop\RubiksCubeSolver-master\RubiksCubeSolver\KociembaTwoPhase\bin\Debug\KociembaTwoPhase.pdb
+C:\Users\Koli\Desktop\RubiksCubeSolver-master\RubiksCubeSolver\KociembaTwoPhase\obj\Debug\KociembaTwoPhase.dll
+C:\Users\Koli\Desktop\RubiksCubeSolver-master\RubiksCubeSolver\KociembaTwoPhase\obj\Debug\KociembaTwoPhase.pdb
