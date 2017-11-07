@@ -17,3 +17,5 @@ Arduino C++
 1. Dr Sagara Sumathipala for Evaluating and guiding us.
 2. http://kociemba.org/cube.htm
   
+  ![alt tag](https://github.com/HarithKK/Rubik-Cube-Robot/to/IMAG1064.jpg)
+  
