@@ -3,6 +3,8 @@
 This is A Robot what can solve Rubik Cube. this is a fully Arduino based Robot and external image processing and cube solving is done by C# application.
 the ultimate objective was to make a simple robot by for solve rubik cube.
 
+[![NPM Version][npm-image]][npm-url]
+
 ## Software Supports
 
 Visual Studio 2013
